@@ -4,7 +4,7 @@ name: Simple CI/CD Pipeline for CSE 270
 on:
   # Runs on pushes targeting the default branch
   push:
-    branches: ["main"]
+    branches: ["main", "auto"]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
